@@ -22,16 +22,26 @@ header {
     box-shadow: 0 0 8px 1px #CB6CE6;
 }
 
+
+
 .info {
     margin-top: 2%;
     display: grid;
     
 }
 
+.bio {
+    text-align: center;
+}
+
+.bio h3 {
+    margin-bottom: 1%;
+}
+
 .container {
     background-color: antiquewhite;
     padding: 2%;
-    width: 35%;
+    width: 50%;
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -42,8 +52,10 @@ header {
 }
 
 .lista-de-tarefas {
-    width: 100%;
-    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .lista-de-tarefas img {
@@ -51,3 +63,7 @@ header {
     height: 100%;
 }
 
+.projects {
+    text-align: center;
+
+}
