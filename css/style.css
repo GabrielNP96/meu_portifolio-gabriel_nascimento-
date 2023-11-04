@@ -31,7 +31,7 @@ header {
 .container {
     background-color: antiquewhite;
     padding: 2%;
-    width: 25%;
+    width: 35%;
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -39,5 +39,15 @@ header {
 
 .container h2 {
     display: block;
+}
+
+.lista-de-tarefas {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-tarefas img {
+    width: 100%;
+    height: 100%;
 }
 
