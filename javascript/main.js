@@ -7,8 +7,12 @@ const listaDeTarefas = {
 
 const projects = document.querySelector('.projects-area')
 
-projects.innerHTML = `<div class='lista-de-tarefas'>
+function projectsOnHtml(projects) {
+    projects.innerHTML = `<div class='my-projects'>
                         <h3>${listaDeTarefas.nome}</h3>
                         <a href="${listaDeTarefas.link}" target ='_blank'><img src='${listaDeTarefas.imagem}' alt='imagem do projeto'></a>
                         <p>${listaDeTarefas.descricao}</p>
                     </div>`
+}
+
+projectsOnHtml(projects)
