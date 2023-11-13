@@ -78,6 +78,7 @@ header {
     height: 100%;
 }
 
+
 .projects {
     text-align: center;
 }
@@ -110,3 +111,15 @@ footer a:hover {
 footer a:active{
     color: rgb(119, 118, 118);
 }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .my-projects {
+        width: 100%;
+    }
+}
+
